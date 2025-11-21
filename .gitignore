@@ -1,0 +1,10 @@
+data/*
+data/**
+model_weights/*
+model_weights/**
+pred_images/*
+pred_images/**
+**.pyc
+.idea
+.idea/*
+.idea/**
