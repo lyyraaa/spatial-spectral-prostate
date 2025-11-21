@@ -16,6 +16,11 @@ RandomForest model with K=16 PCA bottleneck: `classical_model_training.py random
 We include sample prediction scripts as notebooks `classical_model_prediction.ipynb`, `patch_based_prediction.ipynb`, and `core_based_prediction.ipynb`. 
 Please note that patch-based prediction can be very slow for some of the larger patch sizes.
 
+#### Model weights
+
+Model weights for each of the models implemented in `src/models.py` can be downloaded at https://zenodo.org/records/17672476  
+This repository also contains a sample of FTIR cores.
+
 ## Annotation colours
 Please note that annotation class colours are different in these scripts compared to the paper. The colour scheme was revised to aid legibility.
 A key to translate colours is as follows (RGB):  
