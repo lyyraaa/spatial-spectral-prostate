@@ -1,6 +1,7 @@
 # spatial-spectral-prostate
 
-Training scripts and model implementations for the paper "Spatial-Spectral Deep Learning for Prostate Cancer Tissue Classification in Infrared Spectroscopy".
+Training scripts and model implementations for the paper "Spatial-Spectral Deep Learning for Prostate Cancer Tissue Classification in Infrared Spectroscopy".  
+Please direct any questions about the paper, the code, or the data to lyra.oleary@manchester.ac.uk
 
 ## Training scripts
 
