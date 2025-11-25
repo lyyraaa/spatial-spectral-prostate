@@ -14,7 +14,7 @@ from src.utils import ftir_patching_dataset
 from src.models import MLP, patch3_cnn, patch25_cnn, patch101_cnn, patch_multiscale, patch25_transformer
 
 ## Define parameters common to all experiments/models
-is_local = True # todo
+is_local = True # used to define where data is loaded from on the HPC experiments were run on
 
 # Experiment
 seed = int(sys.argv[-1])

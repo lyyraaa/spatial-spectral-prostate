@@ -14,7 +14,7 @@ from src.models import SVM, RandomForest
 from src.utils import ftir_patching_dataset
 
 ## Define parameters common to all experiments/models
-is_local = True # todo
+is_local = True # used to define where data is loaded from on the HPC experiments were run on
 
 # Experiment
 seed = int(sys.argv[-1])
@@ -33,7 +33,7 @@ test_set_fraction = 0.2
 val_set_fraction= 0.2
 
 # Training
-samples_to_train = 1000 #todo
+samples_to_train = 10000
 
 # Spectral bottleneck parameters
 reduce_method = sys.argv[-3]

@@ -14,7 +14,7 @@ from src.utils import ftir_core_dataset
 from src.models import UNet, BlockViT
 
 ## Define parameters common to all experiments/models
-is_local = True # todo
+is_local = True # used to define where data is loaded from on the HPC experiments were run on
 
 # Experiment
 seed = int(sys.argv[-1])
