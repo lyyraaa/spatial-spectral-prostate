@@ -22,6 +22,8 @@ Please note that patch-based prediction can be very slow for some of the larger 
 Model weights for each of the models implemented in `src/models.py` can be downloaded at https://zenodo.org/records/17672476  
 This repository also contains a sample of FTIR cores.
 
+The full FTIR dataset used in this dataset is available compressed and unprocessed at https://zenodo.org/records/18671069.
+
 ## Annotation colours
 Please note that annotation class colours are different in these scripts compared to the paper. The colour scheme was revised to aid legibility.
 A key to translate colours is as follows (RGB):  
